@@ -53,28 +53,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 
                 </div>
-                <ul class="comment-list">
-                   
-                    <li>
-                        <img src="~/web2/images/avatar.png" class="img-responsive" alt="">
-                        <div class="desc">
-                            <p>Buse Yeşil: Yorum yazack</p>
-                        </div>
-                        <div class="clearfix"></div>
-                    </li>
-                </ul>
-                <div class="content-form">
-                    <h3 style="color: #b10d48;">Bir Yorum Yapın</h3>
+                @foreach (var y in Model.Deger2)
+                {
+                    <ul class="comment-list">
 
-                    <form>
-                        <input type="text" placeholder="Kullanıcı Adı" required />
-                        <input type="text" placeholder="Mail Adresi" required />
+                        <li>
+                            <img src="~/web2/images/avatar.png" class="img-responsive" alt="">
+                            <div class="desc">
+                                <p>@y.KullaniciAdi: @y.Yorum  </p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </li>
+                    </ul>
+                }
 
-                        <textarea placeholder="Yorum"></textarea>
-                        <input type="submit" value="Gönder" style="background-color: #b10d48;" />
-
-                    </form>
-                </div>
+              @Html.Action("YorumYap","Blog")
             </div>
 
             <div class="col-md-4 side-content">
