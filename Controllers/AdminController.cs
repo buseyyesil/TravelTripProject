@@ -47,6 +47,7 @@ namespace TravelTripProject.Controllers
             blg.Aciklama=b.Aciklama;    
             blg.Baslik=b.Baslik;
             blg.Tarih=b.Tarih;
+            blg.Icerik = b.Icerik;
             c.SaveChanges();
             return RedirectToAction("Index");
 
@@ -83,6 +84,40 @@ namespace TravelTripProject.Controllers
 
 
         }
+        // Hakkımızda Listesi
+        public ActionResult HakkimizdaListesi()
+        {
+            var hakkimizdalar = c.Hakkimizdas.ToList();
+            return View(hakkimizdalar);
+        }
+
+        // Güncelleme sayfasını aç
+        public ActionResult HakkimizdaGetir(int id)
+        {
+            var h = c.Hakkimizdas.Find(id);
+            return View("HakkimizdaGetir", h);
+        }
+
+        // Güncelleme işlemini yap
+        [HttpPost]
+        public ActionResult HakkimizdaGuncelle(Hakkimizda h)
+        {
+            var hakkimizda = c.Hakkimizdas.Find(h.ID);
+            hakkimizda.FotoURL = h.FotoURL;
+            hakkimizda.Aciklama = h.Aciklama;
+            c.SaveChanges();
+            return RedirectToAction("HakkimizdaListesi");
+        }
+
+        // Silme işlemi
+        public ActionResult HakkimizdaSil(int ID)
+        {
+            var h = c.Hakkimizdas.Find(ID);
+            c.Hakkimizdas.Remove(h);
+            c.SaveChanges();
+            return RedirectToAction("HakkimizdaListesi");
+        }
+
 
     }
 }

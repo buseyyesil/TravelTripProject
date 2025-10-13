@@ -1,16 +1,21 @@
-﻿
+﻿@using TravelTripProject.Models.Siniflar
+@model List<Hakkimizda>
 @{
     ViewBag.Title = "About";
     Layout = "~/Views/Shared/_TestLayout.cshtml";
 }
 
 <div class="content">
-    <div class="wrap">
-        <div class="about">
-            <h3>Hakkımızda</h3>
-            <img src="~/web/images/about_banner.jpg" alt="" />
-            <p>Lorem ipsum dolor </p>
+    @foreach (var x in Model)
+    {
+        <div class="wrap">
+            <div class="about">
+                <h3>Hakkımızda</h3>
+                <img src="@x.FotoURL" alt="" />
+                <p>@x.Aciklama</p>
+            </div>
         </div>
-    </div>
+    }
+
 </div>
 

@@ -19,6 +19,9 @@
     @Html.LabelFor(x => x.Aciklama)
     @Html.TextBoxFor(x => x.Aciklama, new { @class = "form-control" })
     <br />
+    @Html.LabelFor(x => x.Icerik, "Uzun İçerik")
+    @Html.TextAreaFor(x => x.Icerik, 15, 1, new { @class = "form-control" })
+    <br />
     <button class="btn btn-primary">Blog Ekle</button>
 </form>
 

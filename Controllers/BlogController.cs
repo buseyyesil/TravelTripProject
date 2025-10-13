@@ -17,6 +17,7 @@ namespace TravelTripProject.Controllers
         {
             //var bloglar=c.Blogs.ToList();
             by.Deger1=c.Blogs.ToList(); 
+             by.Deger2 = c.Yorumlars.OrderByDescending(x => x.ID).Take(3).ToList();
             by.Deger3=c.Blogs.OrderByDescending(x => x.ID).Take(3).ToList(); 
             return View(by);
         }

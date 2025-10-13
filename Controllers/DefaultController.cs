@@ -14,7 +14,7 @@ namespace TravelTripProject.Controllers
         public ActionResult Index()
         {
               
-            var degerler=c.Blogs.Take(9).ToList();
+            var degerler=c.Blogs.ToList();
             return View(degerler);
         }
         public ActionResult About()

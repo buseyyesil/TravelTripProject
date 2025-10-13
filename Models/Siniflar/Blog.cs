@@ -12,7 +12,8 @@ namespace TravelTripProject.Models.Siniflar
         public int ID { get; set; } 
         public string Baslik {  get; set; } 
         public DateTime Tarih {  get; set; }    
-        public string Aciklama { get; set; }    
+        public string Aciklama { get; set; }
+        public string Icerik { get; set; } //sonradan ekledim
         public string BlogImage { get; set; }   
         public ICollection<Yorumlar>Yorumlars { get; set; }
 
