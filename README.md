@@ -12,7 +12,7 @@
 
 **### 🏠 Ana Sayfa - Slider Bölümü**
 
-**!\[Ana Sayfa Slider](screenshots/homepage.png)**
+**![Ana Sayfa Slider](screenshots/homepage.png)**
 
 **\*"Rahat Bir Gezi Planla" - Dinamik slider ile modern tasarım\***
 
@@ -20,7 +20,7 @@
 
 **### 📱 Ana Sayfa - Blog Kartları**
 
-**!\[Ana Sayfa Blog Kartları](screenshots/homepage2.png)**
+**![Ana Sayfa Blog Kartları](screenshots/homepage2.png)**
 
 **\*"Tatil Seyehat Bloğuma Hoşgeldiniz" - En Popüler 10 Blog ve Favoriler\***
 
@@ -28,7 +28,7 @@
 
 **### 📝 Tüm Bloglar Sayfası**
 
-**!\[Blog Sayfası](screenshots/blog-list.png)**
+**![Blog Sayfası](screenshots/blog-list.png)**
 
 **\*Blog listesi ve son yorumlar\***
 
@@ -36,7 +36,7 @@
 
 **### 📖 Blog Detay Sayfası**
 
-**!\[Blog Detay](screenshots/blog-detay.png)**
+**![Blog Detay](screenshots/blog-details.png)**
 
 **\*Blog içeriği ve kullanıcı yorumları\***
 
@@ -44,7 +44,7 @@
 
 **### 💬 Yorum Sistemi**
 
-**!\[Yorumlar](screenshots/yorumlar.png)**
+**![Yorumlar](screenshots/comments.png)**
 
 **\*Kullanıcılar blog yazılarına yorum yapabilir\***
 
@@ -52,7 +52,7 @@
 
 **### ℹ️ Hakkımızda**
 
-**!\[Hakkımızda](screenshots/hakkimizda.png)**
+**![Hakkımızda](screenshots/about.png)**
 
 **\*Platform ve yazar hakkında bilgiler\***
 
@@ -60,7 +60,7 @@
 
 **### 🔐 Admin Giriş Paneli**
 
-**!\[Login](screenshots/login.png)**
+**![Login](screenshots/adminlogin.png)**
 
 **\*Güvenli admin girişi\***
 
@@ -68,7 +68,7 @@
 
 **### 👨‍💼 Admin Paneli - Blog Yönetimi**
 
-**!\[Admin Panel](screenshots/admin-panel.png)**
+**![Admin Panel](screenshots/adminblog.png)**
 
 **\*Blog ekleme, düzenleme ve silme işlemleri\***
 
