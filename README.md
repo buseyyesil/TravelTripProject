@@ -253,7 +253,7 @@ Hakkimizda
 
 
 
- 📁 Proje Yapıs
+ 📁 Proje Yapısı
 
 **```**
 
