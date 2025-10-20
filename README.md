@@ -1,4 +1,4 @@
-**# ✈️ Tatil Seyahat Blog - Easy Trip**
+ ✈️ Tatil Seyahat Blog - Easy Trip
 
 
 
@@ -6,11 +6,11 @@
 
 
 
-**## 📸 Proje Görselleri**
+📸 Proje Görselleri**
 
 
 
-**### 🏠 Ana Sayfa - Slider Bölümü**
+🏠 Ana Sayfa - Slider Bölüm
 
 **![Ana Sayfa Slider](screenshots/homepage.png)**
 
@@ -18,7 +18,7 @@
 
 
 
-**### 📱 Ana Sayfa - Blog Kartları**
+ 📱 Ana Sayfa - Blog Kartları
 
 **![Ana Sayfa Blog Kartları](screenshots/homepage2.png)**
 
