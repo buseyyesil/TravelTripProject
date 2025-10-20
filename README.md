@@ -6,7 +6,7 @@
 
 
 
-📸 Proje Görselleri**
+📸 Proje Görselleri
 
 
 
@@ -26,7 +26,7 @@
 
 
 
-**### 📝 Tüm Bloglar Sayfası**
+ 📝 Tüm Bloglar Sayfası
 
 **![Blog Sayfası](screenshots/blog-list.png)**
 
@@ -34,7 +34,7 @@
 
 
 
-**### 📖 Blog Detay Sayfası**
+ 📖 Blog Detay Sayfası
 
 **![Blog Detay](screenshots/blog-details.png)**
 
@@ -42,7 +42,7 @@
 
 
 
-**### 💬 Yorum Sistemi**
+ 💬 Yorum Sistemi
 
 **![Yorumlar](screenshots/comments.png)**
 
@@ -50,7 +50,7 @@
 
 
 
-**### ℹ️ Hakkımızda**
+ℹ️ Hakkımızda
 
 **![Hakkımızda](screenshots/about.png)**
 
@@ -58,7 +58,7 @@
 
 
 
-**### 🔐 Admin Giriş Paneli**
+🔐 Admin Giriş Paneli
 
 **![Login](screenshots/adminlogin.png)**
 
@@ -66,7 +66,7 @@
 
 
 
-**### 👨‍💼 Admin Paneli - Blog Yönetimi**
+ 👨‍💼 Admin Paneli - Blog Yönetimi
 
 **![Admin Panel](screenshots/adminblog.png)**
 
@@ -74,11 +74,11 @@
 
 
 
-**## ✨ Özellikler**
+✨ Özellikler
 
 
 
-**### 🌐 Kullanıcı Paneli**
+ 🌐 Kullanıcı Paneli
 
 **- \*\*Dinamik Blog Slider\*\*: Ana sayfada otomatik dönen blog görselleri**
 
@@ -110,7 +110,7 @@
 
 
 
-**### 👨‍💼 Admin Paneli**
+ 👨‍💼 Admin Paneli
 
 **- \*\*Blog Yönetimi\*\*:**
 
@@ -146,7 +146,7 @@
 
 
 
-**### 🎨 Tasarım Özellikleri**
+🎨 Tasarım Özellikleri
 
 **- \*\*Responsive Design\*\*: Mobil, tablet ve desktop uyumlu**
 
@@ -158,11 +158,11 @@
 
 
 
-**## 🛠️ Kullanılan Teknolojiler**
+ 🛠️ Kullanılan Teknolojiler
 
 
 
-**### Backend**
+Backend
 
 **- \*\*ASP.NET MVC 5\*\* - Web framework**
 
@@ -176,7 +176,7 @@
 
 
 
-**### Frontend**
+Frontend
 
 **- \*\*HTML5 \& CSS3\*\* - Yapı ve stil**
 
@@ -188,8 +188,7 @@
 
 
 
-**### Güvenlik**
-
+Güvenlik
 **- \*\*Forms Authentication\*\* - Kullanıcı doğrulama**
 
 **- \*\*Session Management\*\* - Oturum yönetimi**
@@ -198,45 +197,45 @@
 
 
 
-**## 📊 Veritabanı Yapısı**
+ 📊 Veritabanı Yapısı
 
 
 
-**### Tablolar**
+ Tablolar
 
 
 
-**\*\*Blog\*\***
+Blog
 
 **- ID, Baslik, Tarih, Aciklama, Icerik, BlogImage**
 
 
 
-**\*\*Yorumlar\*\***
+Yorumlar
 
 **- ID, KullaniciAdi, Mail, Yorum, BlogId (Foreign Key)**
 
 
 
-**\*\*Admin\*\***
+Admin
 
 **- Id, Kullanici, Sifre**
 
 
 
-**\*\*Hakkimizda\*\***
+Hakkimizda
 
 **- ID, FotoURL, Aciklama**
 
 
 
-**\*\*İletişim\*\***
+İletişim
 
 **- ID, AdSoyad, Mail, Konu, Mesaj**
 
 
 
-**## 🚀 Kurulum**
+ 🚀 Kurulum
 
 
 
@@ -254,7 +253,7 @@
 
 
 
-**## 📁 Proje Yapısı**
+ 📁 Proje Yapıs
 
 **```**
 
@@ -316,11 +315,10 @@
 
 
 
-**## 🎯 Kullanım**
+ 🎯 Kullanım
 
 
-
-**### Kullanıcılar İçin**
+ Kullanıcılar İçin
 
 **1. Ana sayfadan blogları keşfedin**
 
@@ -334,7 +332,7 @@
 
 
 
-**### Admin İçin**
+Admin İçin
 
 **1. `/GirisYap/Login` adresinden giriş yapın**
 
@@ -352,7 +350,7 @@
 
 
 
-**## 📝 Öne Çıkan Blog Konuları**
+ 📝 Öne Çıkan Blog Konular
 
 
 
@@ -376,7 +374,7 @@
 
 
 
-**## 📞 İletişim**
+📞 İletişim
 
 
 
@@ -388,13 +386,13 @@
 
 
 
-**⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın!**
+⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın!
 
 
 
-**💬 Sorularınız için Issues bölümünü kullanabilirsiniz.**
+💬 Sorularınız için Issues bölümünü kullanabilirsiniz.
 
 
 
-**🌍 Mutlu geziler! ✈️**
+🌍 Mutlu geziler! ✈️
 
