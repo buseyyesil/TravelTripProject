@@ -14,7 +14,7 @@
 
 **![Ana Sayfa Slider](screenshots/homepage.png)**
 
-**\*"Rahat Bir Gezi Planla" - Dinamik slider ile modern tasarım\***
+
 
 
 
@@ -22,7 +22,7 @@
 
 **![Ana Sayfa Blog Kartları](screenshots/homepage2.png)**
 
-**\*"Tatil Seyehat Bloğuma Hoşgeldiniz" - En Popüler 10 Blog ve Favoriler\***
+
 
 
 
@@ -30,15 +30,13 @@
 
 **![Blog Sayfası](screenshots/blog-list.png)**
 
-**\*Blog listesi ve son yorumlar\***
-
 
 
  📖 Blog Detay Sayfası
 
 **![Blog Detay](screenshots/blog-details.png)**
 
-**\*Blog içeriği ve kullanıcı yorumları\***
+
 
 
 
@@ -46,7 +44,7 @@
 
 **![Yorumlar](screenshots/comments.png)**
 
-**\*Kullanıcılar blog yazılarına yorum yapabilir\***
+
 
 
 
@@ -54,7 +52,7 @@
 
 **![Hakkımızda](screenshots/about.png)**
 
-**\*Platform ve yazar hakkında bilgiler\***
+
 
 
 
@@ -62,15 +60,13 @@
 
 **![Login](screenshots/adminlogin.png)**
 
-**\*Güvenli admin girişi\***
-
 
 
  👨‍💼 Admin Paneli - Blog Yönetimi
 
 **![Admin Panel](screenshots/adminblog.png)**
 
-**\*Blog ekleme, düzenleme ve silme işlemleri\***
+
 
 
 
@@ -253,66 +249,6 @@ Hakkimizda
 
 
 
- 📁 Proje Yapısı
-
-**```**
-
-**TravelTripProject/**
-
-**├── Controllers/**
-
-**│   ├── AdminController.cs      # Admin CRUD işlemleri**
-
-**│   ├── BlogController.cs       # Blog \& Yorum işlemleri**
-
-**│   ├── DefaultController.cs    # Ana sayfa**
-
-**│   ├── AboutController.cs      # Hakkımızda**
-
-**│   └── GirisYapController.cs   # Authentication**
-
-**├── Models/**
-
-**│   └── Siniflar/**
-
-**│       ├── Blog.cs**
-
-**│       ├── Yorumlar.cs**
-
-**│       ├── Admin.cs**
-
-**│       ├── Hakkimizda.cs**
-
-**│       ├── Context.cs          # DbContext**
-
-**│       └── BlogYorum.cs        # ViewModel**
-
-**├── Views/**
-
-**│   ├── Admin/                  # Admin paneli views**
-
-**│   ├── Blog/                   # Blog views**
-
-**│   ├── Default/                # Ana sayfa partials**
-
-**│   ├── About/**
-
-**│   ├── GirisYap/**
-
-**│   └── Shared/**
-
-**│       ├── \_TestLayout.cshtml  # Kullanıcı layout**
-
-**│       └── \_AdminLayout.cshtml # Admin layout**
-
-**├── Content/                    # CSS dosyaları**
-
-**├── Scripts/                    # JavaScript dosyaları**
-
-**└── screenshots/                # README için görseller**
-
-**```**
-
 
 
  🎯 Kullanım
@@ -378,7 +314,7 @@ Admin İçin
 
 
 
-**Proje Sahibi: \[BUSE YEŞİL]**
+**Proje Sahibi: BUSE YEŞİL**
 
 **- Email: buseyesil55@gmail.com**
 
@@ -386,11 +322,6 @@ Admin İçin
 
 
 
-⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın!
-
-
-
-💬 Sorularınız için Issues bölümünü kullanabilirsiniz.
 
 
 
