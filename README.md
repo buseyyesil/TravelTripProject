@@ -310,20 +310,5 @@ Admin İçin
 
 
 
-📞 İletişim
-
-
-
-**Proje Sahibi: BUSE YEŞİL**
-
-**- Email: buseyesil55@gmail.com**
-
-**- LinkedIn: https://www.linkedin.com/in/buse-y-5b3073249/**
-
-
-
-
-
-
 🌍 Mutlu geziler! ✈️
 
